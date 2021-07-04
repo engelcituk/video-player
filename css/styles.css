@@ -15,9 +15,11 @@ body {
 }
 
 .player video{
-    inline-size: 100%;
     aspect-ratio: 16/9;
+    inline-size: 100%;
+    object-fit: cover;
     vertical-align: middle;
+
 }
 .player-title{
     color: white;
@@ -47,4 +49,13 @@ body {
 .player-progress input {
     flex: 1;
     cursor: pointer;
+}
+.player-overlay{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .5s opacity;
+}
+.player:hover .player-overlay{
+    opacity: 1;
 }

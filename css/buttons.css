@@ -26,3 +26,10 @@
 #forward{
     background-image: url('../images/+10.svg');   
 }
+
+#fullscreen{
+    background-image: url('../images/fullscreen.png');   
+}
+#toggle-fullscreen{
+    background-image: url('../images/toggle-fullscreen.png');   
+}
